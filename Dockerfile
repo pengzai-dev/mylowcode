@@ -10,6 +10,7 @@ COPY package*.json ./
 # 安装项目依赖
 RUN npm install
 
+
 # 将本地代码复制到工作目录
 COPY . .
 
